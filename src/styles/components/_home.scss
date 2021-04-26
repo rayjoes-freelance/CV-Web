@@ -1,0 +1,29 @@
+#home{
+    color: $lightGray;
+}
+
+#home ul{
+    display: flex;
+    flex-flow: column;
+    //border: solid;
+    margin-left: 15%;
+    list-style-type: none;
+}
+
+#home li{
+    display: flex;
+    flex-direction: row;
+    margin-block-end: 15px;
+    
+}
+
+#home3Title{
+    margin-left: 5%;
+}
+
+#home a{
+    color: $lightGray;
+    text-decoration: none;
+    cursor: pointer;
+
+}

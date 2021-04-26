@@ -1,0 +1,29 @@
+#footer{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#333333;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footerItem{
+    padding: $s-size;
+    margin: 0;
+}
+
+#footer hr{
+    color: white;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
