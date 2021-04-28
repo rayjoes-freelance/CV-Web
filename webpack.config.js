@@ -34,7 +34,7 @@ module.exports = {
                 }
               },
               {
-                loader: 'img-loader',
+                    loader: 'img-loader',
             }
             ]
         },
