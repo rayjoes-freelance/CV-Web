@@ -14,7 +14,6 @@
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
-  
   "dependencies": {
     "@babel/core": "^7.13.0",
     "@babel/preset-env": "^7.13.15",
@@ -47,9 +46,8 @@
   },
   "description": "un simple cv web",
   "repository": "https://github.com/rayjoes-freelance/CV-Web.git",
-  "author": "Rayjoes"
-},
-
-"devDependencies": {
-  "webpack-dev-server": "^3.11.0",
+  "author": "Rayjoes",
+  "devDependencies": {
+    "chalk": "^4.1.1"
+  }
 }

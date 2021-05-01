@@ -30,7 +30,7 @@ module.exports = (env) => {
                         loader: 'url-loader',
                             
                         options: {
-                        limit: 8192, // if less than 10 kb, add base64 encoded image to css 
+                        limit: 8192,  
                         name: '[name].[hash:7].[ext]'
                     }
                   },
