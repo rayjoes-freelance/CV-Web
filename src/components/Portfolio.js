@@ -9,7 +9,7 @@ const  Portfolio = () =>{
             <br/>
             <ul>
                 <li><Link to="/portfolio/1">Indecision-app</Link></li>
-                <li><Link to="/portfolio/2">Expensify</Link></li>
+                <li><Link to="/portfolio/2">Depensify</Link></li>
             </ul>
         </div>
     );

@@ -2,7 +2,7 @@
   "name": "rayjoes-cv",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "None",
+  "license": "MIT",
   "engines": {
     "node": "10.x"
   },
@@ -30,6 +30,7 @@
     "file-loader": "5.0.2",
     "image-webpack-loader": "^7.0.1",
     "img-loader": "^3.0.2",
+    "mini-css-extract-plugin": "^1.6.0",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
     "react": "16.0.0",
@@ -42,6 +43,7 @@
     "validator": "8.0.0",
     "webpack": "4.44.1",
     "webpack-cli": "3.3.10",
+    "webpack-dev-server": "^3.11.2",
     "webpack-node-externals": "^2.5.2"
   },
   "description": "un simple cv web",

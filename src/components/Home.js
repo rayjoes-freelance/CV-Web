@@ -1,12 +1,12 @@
 import React from "react";
 import ProgressBar from './ProgressBar';
-import background from './background';
+//import background from './background';
 
 const bgColors = ['#3C1874','#ACE1E3','#12232E', '#707070','#164A41'];
 const complArray= [85, 60, 85, 90, 60];
 
 const Home = () =>(
-    <div id='home' style={background}>
+    <div id='home'>
         <h1>Georges Raivire</h1>
         <p>
         Bonjour je m'appelle Georges, <br/> je suis
