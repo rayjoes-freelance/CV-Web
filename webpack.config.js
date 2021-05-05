@@ -23,10 +23,10 @@ module.exports = (env) => {
             },
             {
                 test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,
+                //type: 'asset/resource',
                 use: [
                         {
                         loader: 'url-loader',
-                        type: 'asset/resource',
                         options: {
                         limit: 8192,  
                         name: '[name].[hash:7].[ext]'
