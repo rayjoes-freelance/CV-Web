@@ -26,7 +26,7 @@ module.exports = (env) => {
                 use: [
                         {
                         loader: 'url-loader',
-                            
+                        type: 'asset/resource',
                         options: {
                         limit: 8192,  
                         name: '[name].[hash:7].[ext]'
