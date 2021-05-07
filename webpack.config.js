@@ -19,11 +19,14 @@ module.exports = (env) => {
             }, 
             {
                 test: /\.s?css$/,
-                use:[MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']   
+                use:[
+                    MiniCssExtractPlugin.loader, 
+                    'css-loader', 
+                    'sass-loader'
+                ]   
             },
             {
                 test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,
-                //type: 'asset/resource',
                 use: [
                         {
                         loader: 'url-loader',

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
 
 const  Portfolio = () =>{
      return (
@@ -8,8 +8,7 @@ const  Portfolio = () =>{
             <p>Voici les projets sur lesquelles j'ai travaillé</p>
             <br/>
             <ul>
-                <li><Link to="/portfolio/1">Indecision-app</Link></li>
-                <li><Link to="/portfolio/2">Depensify</Link></li>
+                <li><a href="https://depensify-app-v1.herokuapp.com">Depensify</a></li>
             </ul>
         </div>
     );
