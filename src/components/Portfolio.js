@@ -9,6 +9,7 @@ const  Portfolio = () =>{
             <br/>
             <ul>
                 <li><a href="https://depensify-app-v1.herokuapp.com">Depensify</a></li>
+                <li><a href="https://app-indecise.herokuapp.com/">App-indecise</a></li>
             </ul>
         </div>
     );
